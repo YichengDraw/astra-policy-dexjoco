@@ -1,10 +1,10 @@
-# Astra Policy on DexJoCo
+# GPT-6 Astra Policy on DexJoCo
 
-Results from an Astra-written robot controller on three DexJoCo tasks: hammering a nail, watering a plant, and using a microwave with two arms.
+Results from a robot controller written by [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) on three DexJoCo tasks: hammering a nail, watering a plant, and using a microwave with two arms.
 
 ## What was tested
 
-Astra (`gpt-6-astra`, `xhigh`) wrote a controller that matches camera images and robot state to examples from **100 official training demonstrations per task and condition**. The code was then frozen for evaluation. Astra was not called at each control step.
+GPT-6 Astra (`gpt-6-astra`, `xhigh`) wrote a controller that matches camera images and robot state to examples from **100 official training demonstrations per task and condition**. The code was then frozen for evaluation. The model was not called at each control step.
 
 **900 episodes completed:** three tasks, two randomization settings, and three seeds with 50 episodes each.
 

@@ -4,7 +4,7 @@ The completed evaluation contains **900 episodes in 18 complete groups**. The fi
 
 ## Evaluated system
 
-`gpt-6-astra` generated a demonstration retrieval controller at `xhigh` reasoning effort. The generated controller was frozen without manual edits. During evaluation, this program used the current images, robot state, training demonstrations, and its own episode memory to select the next action sequence. Astra was not called at each control step. The reported result measures this Astra-authored system; it is not a zero-shot result.
+GPT-6 Astra (`gpt-6-astra`) generated a demonstration retrieval controller at `xhigh` reasoning effort. The generated controller was frozen without manual edits. During evaluation, this program used the current images, robot state, training demonstrations, and its own episode memory to select the next action sequence. The model was not called at each control step. The reported result measures this system built by GPT-6 Astra; it is not a zero-shot result.
 
 Both the online and generated-program approaches began development at `high`. The controlled online comparison at `xhigh`, `max`, and `ultra` had 0 successes in 18 development episodes. The selected program configuration had 4 successes in a separate 18-episode development validation. Development also compared action-sequence lengths and deployment configurations. These small samples supported candidate selection and were excluded from the reported test scores; they do not establish an optimal configuration.
 
