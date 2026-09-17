@@ -1,0 +1,53 @@
+{
+  "note": "Success examples from accepted scored cells. Videos retain their original bytes. Playback is encoded at 30 fps and is faster than wall-clock execution. Official success predicates determine scores; images cannot establish exact contacts or heating.",
+  "files": [
+    {
+      "path": "media/hammer-nail.mp4",
+      "task": "hammer_nail",
+      "regime": "rand_obj",
+      "seed": 0,
+      "episode": 5,
+      "success": true,
+      "steps": 574,
+      "wall_seconds": 70.7620894908905,
+      "sha256": "c33ff0eaffe8c2f915e2da4666dba8f15309c6d3f41a1efb088e1b2e906373d8",
+      "bytes": 635591,
+      "encoded_fps": 30,
+      "selection": "Earliest successful episode in the accepted rand_obj seed0 group."
+    },
+    {
+      "path": "media/water-plant.mp4",
+      "task": "water_plant",
+      "regime": "rand_obj",
+      "seed": 0,
+      "episode": 4,
+      "success": true,
+      "steps": 490,
+      "wall_seconds": 59.948793172836304,
+      "sha256": "930f274736eab7a7916fb21a4f0fcc684e391cb398f6566db6131dc99b7ca714",
+      "bytes": 496399,
+      "encoded_fps": 30,
+      "selection": "Earliest successful episode in the accepted rand_obj seed0 group."
+    },
+    {
+      "path": "media/microwave.mp4",
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_obj",
+      "seed": 0,
+      "episode": 0,
+      "success": true,
+      "steps": 1028,
+      "wall_seconds": 165.8683319091797,
+      "sha256": "6d09af9875f9f90fdf32be0a37233af1caebe895dae63b0573f4c198381fe684",
+      "bytes": 1760171,
+      "encoded_fps": 30,
+      "selection": "Earliest successful episode in the accepted rand_obj seed0 group."
+    },
+    {
+      "path": "media/microwave-sequence.png",
+      "sha256": "19b55ef5fa9e0f68825e0a1a2d397cb9e5d307ec9d45b6541dbc709675dd5acf",
+      "bytes": 317357,
+      "description": "Eight sampled frames from microwave.mp4; labels show frame indices."
+    }
+  ]
+}

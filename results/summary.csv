@@ -1,0 +1,7 @@
+task,regime,seeds,episodes,successes,mean_success_rate_pct,sample_std_success_rate_pct,ddof
+bimanual_microwave_cook,rand_full,3,150,2,1.3333333333333333,1.1547005383792515,1
+bimanual_microwave_cook,rand_obj,3,150,4,2.6666666666666665,1.1547005383792515,1
+hammer_nail,rand_full,3,150,10,6.666666666666667,4.618802153517006,1
+hammer_nail,rand_obj,3,150,32,21.333333333333332,5.773502691896257,1
+water_plant,rand_full,3,150,33,22,5.291502622129181,1
+water_plant,rand_obj,3,150,33,22,0.0,1

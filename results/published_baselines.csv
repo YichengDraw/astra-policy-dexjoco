@@ -1,0 +1,31 @@
+model,task,regime,mean_success_rate_pct,published_std_success_rate_pct,source_url,evaluation_kind
+DP-T,hammer_nail,rand_obj,81.3,3.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-T,hammer_nail,rand_full,18.7,1.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-T,water_plant,rand_obj,84.0,3.5,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-T,water_plant,rand_full,56.0,8.7,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-T,bimanual_microwave_cook,rand_obj,73.3,11.6,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-T,bimanual_microwave_cook,rand_full,21.3,4.6,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,hammer_nail,rand_obj,58.7,4.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,hammer_nail,rand_full,19.3,3.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,water_plant,rand_obj,63.3,3.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,water_plant,rand_full,54.0,5.3,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,bimanual_microwave_cook,rand_obj,54.0,12.5,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+DP-C,bimanual_microwave_cook,rand_full,62.7,6.4,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,hammer_nail,rand_obj,50.0,7.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,hammer_nail,rand_full,22.7,6.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,water_plant,rand_obj,47.3,4.6,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,water_plant,rand_full,52.7,8.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,bimanual_microwave_cook,rand_obj,66.0,2.0,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+ACT,bimanual_microwave_cook,rand_full,50.0,6.9,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,hammer_nail,rand_obj,84.7,5.0,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,hammer_nail,rand_full,17.3,5.0,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,water_plant,rand_obj,88.7,3.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,water_plant,rand_full,75.3,6.4,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,bimanual_microwave_cook,rand_obj,70.0,3.5,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+π0.5,bimanual_microwave_cook,rand_full,54.7,6.1,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,hammer_nail,rand_obj,67.3,4.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,hammer_nail,rand_full,38.7,8.3,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,water_plant,rand_obj,72.7,1.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,water_plant,rand_full,66.0,5.3,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,bimanual_microwave_cook,rand_obj,50.7,4.6,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun
+GR00T N1.5,bimanual_microwave_cook,rand_full,42.0,7.2,https://arxiv.org/html/2605.16257v1#S4.T2,published_reference_not_rerun

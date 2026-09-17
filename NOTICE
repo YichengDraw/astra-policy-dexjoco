@@ -1,0 +1,16 @@
+This is an independent evaluation-results repository, not an official release
+from the Astra or DexJoCo teams.
+
+The simulator and benchmark were developed by the DexJoCo contributors:
+https://github.com/brave-eai/dexjoco
+
+Training demonstrations came from the official DexJoCo dataset:
+https://huggingface.co/datasets/DexJoCo/DexJoCo-Datasets-LeRobot
+
+Reference policy scores are attributed to Table 2 of the DexJoCo paper:
+https://arxiv.org/html/2605.16257v1#S4.T2
+
+The included videos are recorded outputs of the evaluated DexJoCo simulation.
+Simulator assets and training data are not redistributed in this repository.
+Third-party software and assets retain their original notices and terms.
+The repository's MIT license applies to its original code and documentation.

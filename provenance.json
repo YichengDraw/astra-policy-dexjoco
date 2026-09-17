@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "export_is_derived": true,
+  "description": "Sanitized derived export of the 18 accepted complete evaluation groups. Source JSONL and JSON files remain outside this repository.",
+  "verification_scope": "The standalone verifier checks exported identities, totals, statistics, and file digests. Source digests identify private originals; their presence does not reproduce or independently authenticate all private raw audit evidence, simulator execution, or published baseline measurements.",
+  "evaluation": {
+    "tasks": [
+      "hammer_nail",
+      "water_plant",
+      "bimanual_microwave_cook"
+    ],
+    "regimes": [
+      "rand_obj",
+      "rand_full"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_group": 50,
+    "episode_indices": [
+      0,
+      49
+    ],
+    "groups": 18,
+    "episodes": 900,
+    "sample_std_ddof": 1
+  },
+  "selection": {
+    "retained_groups": 9,
+    "retry_groups": 9,
+    "retained_episodes": 450,
+    "retry_episodes": 450,
+    "basis": "Infrastructure-invalid groups were excluded in full; nine predetermined groups were restarted once from their original seeds. No success-based group selection or partial-group stitching.",
+    "test_seed_exposure": "Earlier exploratory runs used test seeds and were excluded. These are exploratory rerun results, not an untouched held-out evaluation."
+  },
+  "frozen": {
+    "evaluation_manifest_source_id": "frozen/evaluation_manifest.json",
+    "evaluation_manifest_sha256": "adf6e6a1a92e23d473f68f3deabe8589a32ed9e7b928ae831ca3d90e64d25a94",
+    "recovery_manifest_source_id": "recovery/recovery_manifest.json",
+    "recovery_manifest_sha256": "f79fd299c1e38200cd8d11a1073e17d9b9818296cb221f899799bb0d34bb0fb2",
+    "controller_sha256": "961c312fb11f95b432c656a08385a737231c47ab0531fdf49372834d85ee78ba",
+    "official_commit": "8d23b0fab23b17a58c4b55f3942e17013aaf8267",
+    "controller_generation_model": "gpt-6-astra",
+    "controller_generation_effort": "xhigh",
+    "controller_execution_mode": "frozen_program",
+    "backend_model_called_per_request": false
+  },
+  "training_demonstrations": {
+    "dataset_id": "DexJoCo/DexJoCo-Datasets-LeRobot",
+    "revision": "5a57c54e55dc5858dd9fb949c5f67c0c9716e6b3",
+    "split": "train",
+    "episodes_per_task_regime": 100
+  },
+  "published_baselines": {
+    "source_url": "https://arxiv.org/html/2605.16257v1#S4.T2",
+    "source_id": "aggregate/report.json",
+    "kind": "Published Table 2 reference values; not rerun on the evaluation hardware."
+  },
+  "accepted_groups": [
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_full",
+      "seed": 0,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_full/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_full/seed0/summary.json"
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_full",
+      "seed": 1,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_full/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_full/seed1/summary.json"
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_full",
+      "seed": 2,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_full/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_full/seed2/summary.json"
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_obj",
+      "seed": 0,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed0/summary.json"
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_obj",
+      "seed": 1,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed1/summary.json"
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "regime": "rand_obj",
+      "seed": 2,
+      "role": "retry",
+      "episodes_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/bimanual_microwave_cook/rand_obj/seed2/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_full",
+      "seed": 0,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_full/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_full/seed0/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_full",
+      "seed": 1,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_full/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_full/seed1/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_full",
+      "seed": 2,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_full/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_full/seed2/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_obj",
+      "seed": 0,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_obj/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_obj/seed0/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_obj",
+      "seed": 1,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_obj/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_obj/seed1/summary.json"
+    },
+    {
+      "task": "hammer_nail",
+      "regime": "rand_obj",
+      "seed": 2,
+      "role": "retained",
+      "episodes_source_id": "accepted/hammer_nail/rand_obj/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/hammer_nail/rand_obj/seed2/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_full",
+      "seed": 0,
+      "role": "retained",
+      "episodes_source_id": "accepted/water_plant/rand_full/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_full/seed0/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_full",
+      "seed": 1,
+      "role": "retry",
+      "episodes_source_id": "accepted/water_plant/rand_full/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_full/seed1/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_full",
+      "seed": 2,
+      "role": "retry",
+      "episodes_source_id": "accepted/water_plant/rand_full/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_full/seed2/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_obj",
+      "seed": 0,
+      "role": "retained",
+      "episodes_source_id": "accepted/water_plant/rand_obj/seed0/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_obj/seed0/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_obj",
+      "seed": 1,
+      "role": "retained",
+      "episodes_source_id": "accepted/water_plant/rand_obj/seed1/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_obj/seed1/summary.json"
+    },
+    {
+      "task": "water_plant",
+      "regime": "rand_obj",
+      "seed": 2,
+      "role": "retry",
+      "episodes_source_id": "accepted/water_plant/rand_obj/seed2/episodes.jsonl",
+      "summary_source_id": "accepted/water_plant/rand_obj/seed2/summary.json"
+    }
+  ],
+  "source_sha256": {
+    "accepted/bimanual_microwave_cook/rand_full/seed0/episodes.jsonl": "4790c0965a1f05e9d40c35be92d6b8ed50bf2a0c73b021deb54560f4b9c21190",
+    "accepted/bimanual_microwave_cook/rand_full/seed0/summary.json": "7f83a7b41dc97bf2a7506daa7a3034f5ecdbc78f6e0b84dc094d332a29874221",
+    "accepted/bimanual_microwave_cook/rand_full/seed1/episodes.jsonl": "7818d0b444e85821cf688cf748702a491086d64b695c29b47cd0f18a20a526fa",
+    "accepted/bimanual_microwave_cook/rand_full/seed1/summary.json": "ffd6e45886a08acdb1e3c61e6a916f4b231a843bd7ad0fd249e13ffa46bc5d69",
+    "accepted/bimanual_microwave_cook/rand_full/seed2/episodes.jsonl": "2e7afb66661328cc51bc76cb748ac0c6a81bcd7178cbef154e5d837c1884db85",
+    "accepted/bimanual_microwave_cook/rand_full/seed2/summary.json": "5bf5665d64d18619ff3c6fdccfe5ee59e6480612cb5a4dd107d0473981d97fd1",
+    "accepted/bimanual_microwave_cook/rand_obj/seed0/episodes.jsonl": "4fb0b7b6c942533ca3d98eb375fce1477ab386029f996e91a0eed4196d93fb2d",
+    "accepted/bimanual_microwave_cook/rand_obj/seed0/summary.json": "f4767e81e899c7b2e07b858803491f32950b4fd7d62604900c70aa9a60087f38",
+    "accepted/bimanual_microwave_cook/rand_obj/seed1/episodes.jsonl": "04bf7a1051e11e22098a2e0cda590582645c67a3263d1fd33522174966e5ec50",
+    "accepted/bimanual_microwave_cook/rand_obj/seed1/summary.json": "95636ac193fd7763b735387a868145d82db4ba613f51b4b608ea10ddc0cf4823",
+    "accepted/bimanual_microwave_cook/rand_obj/seed2/episodes.jsonl": "004ee0af251070856909c3505c828522714afc7315ea878ac6aa70c3ad6cd1a6",
+    "accepted/bimanual_microwave_cook/rand_obj/seed2/summary.json": "d7458fedebabe954da17707b68382e7d39a85a1c42f9867f013d7b1d9be0ba04",
+    "accepted/hammer_nail/rand_full/seed0/episodes.jsonl": "6b89b44df6f787d555d9baa42054480deea670416492db3ad1fa9cc19c1d74eb",
+    "accepted/hammer_nail/rand_full/seed0/summary.json": "d0874addb82b6e5b76bb081884ba9b0d53b631ff3336025b4b4dfc68bc8c48a9",
+    "accepted/hammer_nail/rand_full/seed1/episodes.jsonl": "07a2ee29f406cf923283c5f99f565af836caf5269d24c985c56a56a0b0054c40",
+    "accepted/hammer_nail/rand_full/seed1/summary.json": "49489c2cc8473ece0ead50abc3dce2155c53119b59d8eb9ea16e506670229f0b",
+    "accepted/hammer_nail/rand_full/seed2/episodes.jsonl": "821c5999b593994255ce26c24d21bf2c7d4b914584183a0a40e35b0b2c20fbef",
+    "accepted/hammer_nail/rand_full/seed2/summary.json": "d60eeda7d878ce4aec5e60c6b232073e7b421c508229f410fff347b7769dc0dc",
+    "accepted/hammer_nail/rand_obj/seed0/episodes.jsonl": "98637a2c220b97f270ac6edde3f4b1e30e6402641c64e9e0930a62cf3d37def0",
+    "accepted/hammer_nail/rand_obj/seed0/summary.json": "82aba8a236f153a19283801f7302f261f756194a2ded6b54a6b8db777699dce8",
+    "accepted/hammer_nail/rand_obj/seed1/episodes.jsonl": "705f1c23a704b61c7929e15ca1031e2a741d773a2d657fd3f0bab397c3906104",
+    "accepted/hammer_nail/rand_obj/seed1/summary.json": "dbf1c1e4ac281a2156d4d82fc4c979c745d29865f7633f06ca4115d768933284",
+    "accepted/hammer_nail/rand_obj/seed2/episodes.jsonl": "6d016500a7e3dd0243a4b490be235d734967702d320cce9a7d65d796e28e3991",
+    "accepted/hammer_nail/rand_obj/seed2/summary.json": "44a1fc53045627558918d8b354a66934d798286cc1d947d8bb4e69a8eb348eba",
+    "accepted/water_plant/rand_full/seed0/episodes.jsonl": "77e0b0165c37b9521b719e8850791ca14fb44874cd508b33c8fb4347d63c9915",
+    "accepted/water_plant/rand_full/seed0/summary.json": "64ae7df7834de00be91e04053ff3cf7fca76e8d997673d55bd35f5eddbff2a0c",
+    "accepted/water_plant/rand_full/seed1/episodes.jsonl": "b52f4cf52a9faaa68997a005bfbac55cf0c82a217b62bb229015d8cf06f9f020",
+    "accepted/water_plant/rand_full/seed1/summary.json": "9f3818bc190d8b89a3ceb531c512fe2eaf0dc11594604c04d2153b9f72b1fef9",
+    "accepted/water_plant/rand_full/seed2/episodes.jsonl": "2db5d6036863120ebb42a4fa88ff9e2facc02e981578cd60926a13106a787732",
+    "accepted/water_plant/rand_full/seed2/summary.json": "5294c34cf469a2cb6446fb8735aac37e4ddc32f8d5da0027dd18f5e89ad8a87c",
+    "accepted/water_plant/rand_obj/seed0/episodes.jsonl": "b81f81b56343fbd3fc749f0b530823509908b1829d26f29c7075dd3c9fcc4a55",
+    "accepted/water_plant/rand_obj/seed0/summary.json": "169bd943a947e5bab069326fcfb49548991f6e91f83b7b1a79a3f3375193afec",
+    "accepted/water_plant/rand_obj/seed1/episodes.jsonl": "a559485842d38ff586132075816cb15b7bd0a12413063084077594812aae30cf",
+    "accepted/water_plant/rand_obj/seed1/summary.json": "d621c3ad3e60323c3809a0dd849b5382039ba1e0df7f7845dbd6390aae88d16d",
+    "accepted/water_plant/rand_obj/seed2/episodes.jsonl": "7437eb4b05b3fe858158bef06c91ab355f7674a9fa7f5593eaf0814e1319ec70",
+    "accepted/water_plant/rand_obj/seed2/summary.json": "54f0c8900657b84c0f97e81329291b76ed276684fb7ca48d40e38c7bb6a47a99",
+    "frozen/evaluation_manifest.json": "adf6e6a1a92e23d473f68f3deabe8589a32ed9e7b928ae831ca3d90e64d25a94",
+    "recovery/recovery_manifest.json": "f79fd299c1e38200cd8d11a1073e17d9b9818296cb221f899799bb0d34bb0fb2",
+    "audit/final_audit.json": "89eabbcf6c610716909df00c51c73072f2f78fc70fc159e9a0ba4eeb77cab9c7",
+    "aggregate/report.json": "0ce5788b1a6d09ab34213d81a888367b216a947cd11ba3d2b51056dc3d8a717e"
+  },
+  "export_files": {
+    "results/episodes.csv": {
+      "sha256": "71b7fbaf4cfa689255b10c0e8ee585b592fcf1a4f2daadcc7147553ff509b626",
+      "rows": 900
+    },
+    "results/per_seed.csv": {
+      "sha256": "e2b0df3f102be17f5f610fe991919364132a8c46b090ee82de889f6f5bcc6532",
+      "rows": 18
+    },
+    "results/summary.csv": {
+      "sha256": "75423f10f267ae30949ac6b836978493a3b8497b81640df0942dd0e1dba6d832",
+      "rows": 6
+    },
+    "results/published_baselines.csv": {
+      "sha256": "91a8b8ea3ca97f501604536419922fc6859005d69c71e08ab92a30ec4f2e5025",
+      "rows": 30
+    }
+  }
+}

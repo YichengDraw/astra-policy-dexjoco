@@ -1,0 +1,11 @@
+# Frozen controller reference
+
+`controller.py` is the unedited Astra-generated source used in the scored runs. Its SHA-256 is `961c312fb11f95b432c656a08385a737231c47ab0531fdf49372834d85ee78ba`.
+
+The entry point is `step(observation, memory)`. The observation contains RGB images, robot state, and task text. The function returns a robot command and updated episode-local memory.
+
+The original runtime supplies a global `POLICY_DATA` dictionary containing `policy_data.npz` and `train_metadata.json`, built from the official training split. It also decodes commands into the official action representation and runs the asynchronous simulation loop. Those assets and the full runtime are not bundled here.
+
+The controller compares small image features and robot poses with demonstrated frames, tracks progress within a demonstration, and selects a nearby action. It uses no live object coordinates or simulator success feedback.
+
+`requirements.txt` records the numerical and image libraries used on the policy host. Installing them alone does not reconstruct the original runtime. See [the protocol](../docs/protocol.md) for the evaluated setup and [provenance](../provenance.json) for source digests.
